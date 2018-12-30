@@ -19,7 +19,6 @@ def first_challenge
   if attribute == :favorite_icecream_flavors
       value.each do |flavor|
         # here, each index element in an ice cream flavor string
-        if flavor == "strawberry"
         contacts["Freddy"][:favorite_icecream_flavors] >> "strawberry"
       end
     end
