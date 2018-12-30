@@ -20,7 +20,7 @@ def first_challenge
       value.each do |flavor|
         # here, each index element in an ice cream flavor string
         contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if
-        contacts.delete_if {flavor == "strawberry" } 
+        attribute.delete_if {|flavor| flavor =="strawberry" }
       end
     end
   end
